@@ -1,0 +1,21 @@
+{
+    "name": "Reed/Flash",
+    "description": "Adds a utlitity for easy Session Flash messages.",
+    "license": "MIT",
+    "keywords": ["laravel", "session", "flash"],
+    "authors": [
+        {
+            "name": "Tyler Reed",
+            "email": "tylernathanreed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reed\\Flash\\": "src/"
+        }
+    }
+}
