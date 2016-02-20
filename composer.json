@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Reed\\Flash\\": "src/"
+            "reed\\flash\\": "src/"
         }
     }
 }
