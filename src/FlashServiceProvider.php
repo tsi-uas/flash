@@ -34,4 +34,14 @@ class FlashServiceProvider extends ServiceProvider
     {
 		return array('flash');
 	}
+
+	/**
+	 * Perform post-registration booting of services.
+	 *
+	 * @return void
+	 */
+	public function boot()
+	{
+		$this->loadViewsFrom(__DIR__ . 'views', 'flash');
+	}
 }
