@@ -2,12 +2,12 @@
 
 namespace Reed\Flash;
 
-use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Facade as BaseFacade;
 
 /**
- * @see App\Helpers\Flash
+ * @see Flash
  */
-class Flash extends Facade
+class Facade extends BaseFacade
 {
 	/**
 	 * Get the registered name of the component.
