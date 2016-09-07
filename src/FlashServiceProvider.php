@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Allows the usage of Flash::<type>($message).
  *
- * @see Flash
+ * @see \Reed\Flash\Flash
  */
 class FlashServiceProvider extends ServiceProvider
 {

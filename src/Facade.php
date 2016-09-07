@@ -5,7 +5,7 @@ namespace Reed\Flash;
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
 /**
- * @see Flash
+ * @see \Reed\Flash\Flash
  */
 class Facade extends BaseFacade
 {
