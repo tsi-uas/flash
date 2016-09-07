@@ -46,6 +46,6 @@ class FlashServiceProvider extends ServiceProvider
 
 		$this->publishes([
 			__DIR__ . 'views' => resource_path('views/vendor/reed/flash'),
-		]);
+		], 'flash');
 	}
 }
