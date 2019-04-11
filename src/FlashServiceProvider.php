@@ -11,7 +11,6 @@ use Illuminate\Support\ServiceProvider;
  */
 class FlashServiceProvider extends ServiceProvider
 {
-
 	/**
 	 * Register the service provider.
 	 *
@@ -19,9 +18,8 @@ class FlashServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->app['flash'] = $this->app->share(function()
-        {
-			return new Flash();
+		$this->app['flash'] = $this->app->singleton(function() {
+			return new Flash;
 		});
 	}
 
