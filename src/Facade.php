@@ -1,11 +1,11 @@
 <?php
 
-namespace Reed\Flash;
+namespace Halo\Flash;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
 /**
- * @see \Reed\Flash\Flash
+ * @see \Halo\Flash\Flash
  */
 class Facade extends BaseFacade
 {

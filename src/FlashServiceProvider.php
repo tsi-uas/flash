@@ -1,13 +1,13 @@
 <?php
 
-namespace Reed\Flash;
+namespace Halo\Flash;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Allows the usage of Flash::<type>($message).
  *
- * @see \Reed\Flash\Flash
+ * @see \Halo\Flash\Flash
  */
 class FlashServiceProvider extends ServiceProvider
 {

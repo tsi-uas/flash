@@ -1,6 +1,6 @@
 <?php
 
-namespace Reed\Flash;
+namespace Halo\Flash;
 
 use Illuminate\Support\Facades\Session;
 
